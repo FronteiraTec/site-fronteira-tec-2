@@ -46,9 +46,11 @@ export function Carousel() {
 
             <div>
               <AnimatedOnScroll animationIn="zoomInUp">
-                <button className="mt-[38px] lg:text-xl border border-gray-50 rounded-md p-3 hover:bg-white hover:text-black hover:border-none hover:scale-110 duration-150">
-                  Saiba Mais<span className="ml-3">{'>'}</span>
-                </button>
+                <a href="#AboutUs">
+                  <button className="mt-[38px] lg:text-xl border border-gray-50 rounded-md p-3 hover:bg-white hover:text-black hover:border-none hover:scale-110 duration-150">
+                    Saiba Mais<span className="ml-3">{'>'}</span>
+                  </button>
+                </a>
               </AnimatedOnScroll>
             </div>
           </div>
@@ -67,9 +69,11 @@ export function Carousel() {
             </div>
             <div>
               <AnimatedOnScroll animationIn="zoomInUp">
+              <a href="#AboutUs">
                 <button className="mt-[38px] lg:text-xl border border-gray-50 rounded-md p-3 hover:bg-white hover:text-black hover:border-none hover:scale-110 duration-100">
                   Saiba Mais<span className="ml-3">{'>'}</span>
                 </button>
+              </a>
               </AnimatedOnScroll>
             </div>
           </div>
@@ -88,9 +92,11 @@ export function Carousel() {
             </div>
             <div>
               <AnimatedOnScroll animationIn="zoomInUp">
+              <a href="#AboutUs">
                 <button className="mt-[38px] lg:text-xl border border-gray-50 rounded-md p-3 hover:bg-white hover:text-black hover:border-none hover:scale-110 duration-100">
                   Saiba Mais<span className="ml-3">{'>'}</span>
                 </button>
+              </a>
               </AnimatedOnScroll>
             </div>
           </div>
