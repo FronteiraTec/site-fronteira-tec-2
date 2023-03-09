@@ -5,6 +5,7 @@ import { AboutUs } from '../../Components/AboutUs/AboutUs'
 import { Services } from '../../Components/Services/Services'
 import { Contacts } from '../../Components/Contacts/Contacts'
 import { Events } from '../../Components/Events/Events'
+import React from 'react'
 
 export function Home() {
   return (

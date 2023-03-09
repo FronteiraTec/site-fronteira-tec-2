@@ -14,6 +14,7 @@
     "@heroicons/react": "^2.0.11",
     "@splidejs/react-splide": "^0.7.11",
     "@splidejs/splide": "^4.1.2",
+    "caniuse-lite": "^1.0.30001464",
     "react": "^18.2.0",
     "react-animated-css-onscroll": "^1.2.1",
     "react-dom": "^18.2.0",

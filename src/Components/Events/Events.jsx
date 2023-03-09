@@ -1,6 +1,7 @@
 import Ev1 from '../../Assets/Events/IMG_4494.png'
 import Ev2 from '../../Assets/Events/IMG_4495.jpeg'
 import Ev3 from '../../Assets/Events/IMG_4514.png'
+import React from 'react'
 
 export function Events() {
   return (

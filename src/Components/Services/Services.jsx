@@ -1,6 +1,7 @@
 import { AnimatedOnScroll } from 'react-animated-css-onscroll'
 import iconComputador from '../../Assets/iconComputador.png'
 import iconCelular from '../../Assets/iconCelular.png'
+import React from 'react'
 
 export function Services() {
   return (

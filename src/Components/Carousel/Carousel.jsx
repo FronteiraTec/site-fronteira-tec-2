@@ -1,6 +1,6 @@
 import { AnimatedOnScroll } from 'react-animated-css-onscroll'
 import ft1 from '../../Assets/Backgrounds/bgFronteiraTEC1.png'
-
+import React from 'react'
 
 export function Carousel() {
   return (
@@ -30,7 +30,9 @@ export function Carousel() {
       </div>
 
       <div className="carousel-inner relative w-full overflow-hidden">
-        <div className="carousel-item active relative float-left bg-fronteira-tec1 w-full bg-cover bg-no-repeat h-screen"> {/* */}
+        <div className="carousel-item active relative float-left bg-fronteira-tec1 w-full bg-cover bg-no-repeat h-screen">
+          {' '}
+          {/* */}
           <div className="mt-[350px] lg:mr-[100px] m-5 text-white lg:text-end text-center">
             <div className="flex justify-end">
               <AnimatedOnScroll animationIn="zoomInRight">

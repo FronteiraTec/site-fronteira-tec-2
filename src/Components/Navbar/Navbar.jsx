@@ -3,6 +3,7 @@ import { Popover, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logomarcaFronteiraTec from '../../Assets/Logomarca/logoFronteiraTEC.png'
 import { AnimatedOnScroll } from 'react-animated-css-onscroll'
+import React from 'react'
 
 const navigation = [
   { name: 'Home', href: '#Home' },
