@@ -3,11 +3,11 @@ import React from 'react'
 
 export function Main(props) {
   return (
-    <body>
+    <div>
       <header className="h-0">
         <Navbar />
       </header>
       <main className="bg-white-fronteira">{props.children}</main>
-    </body>
+    </div>
   )
 }

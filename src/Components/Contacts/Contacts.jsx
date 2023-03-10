@@ -243,16 +243,6 @@ export function Contacts() {
                     <AnimatedOnScroll animationIn="zoomInRight">
                       <img
                         className="w-10 h-10"
-                        src="./SocialMedia/Twitter.svg"
-                        alt=""
-                      />
-                    </AnimatedOnScroll>
-                  </a>
-
-                  <a className="mx-1.5" href="#">
-                    <AnimatedOnScroll animationIn="zoomInRight">
-                      <img
-                        className="w-10 h-10"
                         src="./SocialMedia/Facebook.svg"
                         alt=""
                       />

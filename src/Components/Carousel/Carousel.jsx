@@ -1,5 +1,4 @@
 import { AnimatedOnScroll } from 'react-animated-css-onscroll'
-import ft1 from '../../Assets/Backgrounds/bgFronteiraTEC1.png'
 import React from 'react'
 
 export function Carousel() {
