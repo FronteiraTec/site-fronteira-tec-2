@@ -44,21 +44,23 @@ export function Members() {
       <h1 className="text-5xl my-10 text-white">
         Nosso <span className="font-bold">Time</span>
       </h1>
-      <div className="flex ease-linear h-9/12">
-        <svg
-          onClick={leftDisloc}
-          className="self-center md:ml-20 cursor-pointer"
-          width="30"
-          height="31"
-          viewBox="0 0 30 31"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M29.5255 0.0299972H14.4755L0.265544 15.5L14.4755 30.97H29.5255L15.2455 15.5L29.5255 0.0299972Z"
-            fill="white"
-          />
-        </svg>
+      <div className="flex ease-linear">
+        <div className='flex justify-center items-center md:h-96 h-48'>
+          <svg
+            onClick={leftDisloc}
+            className="self-center md:ml-20 cursor-pointer"
+            width="30"
+            height="31"
+            viewBox="0 0 30 31"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M29.5255 0.0299972H14.4755L0.265544 15.5L14.4755 30.97H29.5255L15.2455 15.5L29.5255 0.0299972Z"
+              fill="white"
+            />
+          </svg>
+        </div>
         <div className="flex justify-center items-center h-full w-10/12 m-auto select-none">
           <Member
             member={memb0}
@@ -78,6 +80,7 @@ export function Members() {
             style="mb-[100px] h-[140px] w-[140px] ml-[-40px] z-10 hidden lg:block"
           />
         </div>
+        <div className='flex justify-center items-center md:h-96 h-48'>
         <svg
           onClick={rightDisloc}
           className="self-center md:mr-20 cursor-pointer"
@@ -92,6 +95,7 @@ export function Members() {
             fill="white"
           />
         </svg>
+        </div>
       </div>
       <div className="mt-[-220px] sm:mt-[-280px] md:mt-[-200px] flex flex-col items-center select-none">
         <p className="text-4xl font-black text-white">{memb2.name}</p>

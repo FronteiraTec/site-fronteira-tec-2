@@ -20,7 +20,7 @@ export function Home() {
 
       <div
         id="Members"
-        className="bg-orange-waves bg-no-repeat bg-fixed text-center p-5 lg:h-[600px] h-screen"
+        className="bg-orange-waves bg-no-repeat bg-fixed text-center p-5 lg:h-[600px] h-auto"
       >
         <Members />
       </div>
@@ -29,7 +29,7 @@ export function Home() {
         <Services />
       </div>
 
-      <div id="Events" className="pt-10 w-screen">
+      <div id="Events" className="pt-10 w-screen hidden lg:block">
         <Events />
       </div>
 
