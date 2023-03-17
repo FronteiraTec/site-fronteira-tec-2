@@ -30,7 +30,7 @@ export function AboutUs() {
         <div className='sm:w-1/2'>
           <div className="sm:ml-14 mt-5 p-2">
             <AnimatedOnScroll animationIn="bounceInRight">
-                <h1 className="sm:text-6xl text-4xl text-center md:text-left mb-5 text-green-fronteira">
+                <h1 className="sm:text-6xl text-4xl text-center lg:text-left mb-5 text-green-fronteira">
                   A Fronteira<span className="font-bold">TEC</span>
                 </h1>
                 <p className="text-lg text-justify">
