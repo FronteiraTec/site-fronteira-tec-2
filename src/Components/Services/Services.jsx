@@ -27,17 +27,17 @@ export function Services() {
                 />
               </div>
               <h1 className="text-5xl mb-5 font-bold">WEB</h1>
-              <p className="text-lg sm:text-justify sm:leading-5">
+              <p className="text-lg sm:text-justify text-left sm:leading-5">
                 Desenvolmemos{' '}
                 <span className="font-bold">
                   {' '}
-                  sites, portfólios e sistemas web
+                  sites, portfólios e landing pages
                 </span>{' '}
                 que podem
-                <span className="font-bold"> impulsionar e automatizar</span> o
-                seu negócio, assim trabalhamos com as ferramentas necessárias
+                <span className="font-bold"> impulsionar e conectar</span> o
+                seu negócio, bem como trabalhamos com as ferramentas necessárias
                 para <span className="font-bold"> você ser referência</span> do
-                seu ramo na pesquisa pelo Google.
+                seu ramo na pesquisa pelo Google. 
               </p>
             </div>
           </AnimatedOnScroll>
@@ -54,7 +54,7 @@ export function Services() {
                 />
               </div>
               <h1 className="text-5xl mb-5 font-bold">MOBILE</h1>
-              <p className="text-lg sm:text-justify sm:leading-5">
+              <p className="text-lg sm:text-justify text-left  sm:leading-5">
                 Desenvolvemos{' '}
                 <span className="font-bold"> aplicativos mobile</span> focados
                 na compatibilidade com os sistemas operacionais{' '}
