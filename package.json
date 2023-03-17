@@ -19,6 +19,7 @@
     "react-animated-css-onscroll": "^1.2.1",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
+    "react-slideshow-image": "^4.2.1",
     "sweetalert2": "^11.4.33",
     "tw-elements": "^1.0.0-alpha12"
   },

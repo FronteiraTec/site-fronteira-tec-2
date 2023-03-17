@@ -18,7 +18,7 @@ export function Services() {
       <div className="w-full flex flex-col justify-around lg:flex-row sm:mx-auto p-10 text-center text-white">
         <div>
           <AnimatedOnScroll animationIn="zoomInLeft">
-            <div className="mt-20 bg-green-fronteira/50 hover:bg-green-fronteira/40 p-10 pt-28 rounded-md lg:h-[480px] h-auto sm:w-[500px] m-auto">
+            <div className="mt-20 bg-green-fronteira/50 hover:bg-green-fronteira/40 p-12 pt-28 rounded-md lg:h-[450px] h-auto sm:w-[500px] m-auto">
               <div className="flex justify-center">
                 <img
                   className="h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] absolute sm:-top-24 -top-16"
@@ -26,7 +26,7 @@ export function Services() {
                   alt=""
                 />
               </div>
-              <h1 className="text-4xl mb-5 font-bold">Web</h1>
+              <h1 className="text-5xl mb-5 font-bold">WEB</h1>
               <p className="text-lg sm:text-justify sm:leading-5">
                 Desenvolmemos{' '}
                 <span className="font-bold">
@@ -45,7 +45,7 @@ export function Services() {
 
         <div>
           <AnimatedOnScroll animationIn="zoomInLeft">
-            <div className="mt-20 bg-orange-fronteira/50 hover:bg-orange-fronteira/40 p-10 pt-28 rounded-md lg:h-[480px] h-auto sm:w-[500px] m-auto">
+            <div className="mt-20 bg-orange-fronteira/50 hover:bg-orange-fronteira/40 p-12 pt-28 rounded-md lg:h-[450px] h-auto sm:w-[500px] m-auto">
               <div className="flex justify-center">
                 <img
                   className="h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] absolute sm:-top-24 -top-16"
@@ -53,7 +53,7 @@ export function Services() {
                   alt=""
                 />
               </div>
-              <h1 className="text-4xl mb-5 font-bold">Mobile</h1>
+              <h1 className="text-5xl mb-5 font-bold">MOBILE</h1>
               <p className="text-lg sm:text-justify sm:leading-5">
                 Desenvolvemos{' '}
                 <span className="font-bold"> aplicativos mobile</span> focados

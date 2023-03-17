@@ -8,17 +8,10 @@ export function AboutUs() {
   return (
     // sm:mt-[200px]
     <div className="max-w-[1440px] m-auto">
-      <div className="pt-2 pb-20 lg:mt-0 lg:flex max-w-[1440px]">
+      <div className="pt-2 pb-20 lg:mt-0 lg:flex max-w-[1440px] items-center justify-center">
         <div className="flex pt-1 pb-3 mb-3 lg:border-b-0">
-          <div className="self-start absolute ">
-            <div className="w-[100px] md:w-[180px] lg:w-[100px]">
-              <AnimatedOnScroll animationIn="pulse">
-                <img src={hexagonoLaranja} alt="" />
-              </AnimatedOnScroll>
-            </div>
-          </div>
 
-          <div className="m-auto lg:mx-auto sm:grid-cols-1 p-5 text-center lg:divide-y-0 lg:divide-x-2 divide-y-2 divide-x-0 divide-green-500">
+          <div className="m-auto lg:mx-auto sm:grid-cols-1 p-5 text-center lg:divide-y-0 lg:divide-x-2 divide-y-2 divide-x-0 divide-green-500 mt-7">
             <div className="lg:w-[300px]">
               <AnimatedOnScroll animationIn="bounceInLeft">
                 <div>
@@ -31,23 +24,14 @@ export function AboutUs() {
               </AnimatedOnScroll>
             </div>
           </div>
-
-          <div className="border-none self-end absolute right-0">
-            <div className="w-[100px] md:w-[180px] lg:w-[100px] xl:w-[200px]">
-              <AnimatedOnScroll animationIn="pulse">
-                <img src={hexagonoVerde} alt="" />
-              </AnimatedOnScroll>
-            </div>
-          </div>
-
-          <div className="block lg:w-[2px] lg:h-full lg:bg-gradient-to-b from-green-fronteira to-orange-fronteira"></div>
+          
+          <div className="block lg:w-[3px] lg:h-full lg:bg-gradient-to-b from-orange-fronteira to-green-fronteira"></div>
         </div>
-        <div>
+        <div className='sm:w-1/2'>
           <div className="sm:ml-14 mt-5 p-2">
             <AnimatedOnScroll animationIn="bounceInRight">
-              <div className="px-3">
-                <h1 className="text-4xl mb-5 text-green-fronteira">
-                  A Fronteira <span className="font-bold">TEC</span>
+                <h1 className="sm:text-6xl text-4xl text-center md:text-left mb-5 text-green-fronteira">
+                  A Fronteira<span className="font-bold">TEC</span>
                 </h1>
                 <p className="text-lg text-justify">
                   É uma <span className="font-bold">Empresa Júnior </span>
@@ -71,7 +55,6 @@ export function AboutUs() {
                     solucionar dores do seu negócio.
                   </span>
                 </p>
-              </div>
             </AnimatedOnScroll>
           </div>
         </div>
