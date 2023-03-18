@@ -1,7 +1,5 @@
 import { AnimatedOnScroll } from 'react-animated-css-onscroll'
 import iconFronteiraTec from '../../Assets/Logomarca/iconFronteiraTec.png'
-import hexagonoLaranja from '../../Assets/hexagonoLaranja.png'
-import hexagonoVerde from '../../Assets/hexagonoVerde.png'
 import React from 'react'
 
 export function AboutUs() {
