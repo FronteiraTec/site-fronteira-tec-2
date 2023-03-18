@@ -2,7 +2,7 @@
   "name": "site-fronteira-tec-2",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://fronteiratec.github.io/site-fronteira-tec-2",
+  "homepage": "https://fronteiratec.com",
   "type": "module",
   "scripts": {
     "dev": "vite",
