@@ -20,7 +20,7 @@ export function Home() {
 
       <div
         id="Members"
-        className="bg-orange-waves bg-no-repeat bg-fixed text-center p-5 lg:h-[600px] h-auto"
+        className="bg-orange-waves bg-no-repeat md:bg-fixed text-center p-5 lg:h-[600px] h-auto"
       >
         <Members />
       </div>
