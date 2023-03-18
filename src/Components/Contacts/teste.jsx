@@ -1,22 +1,18 @@
-import logoFronteiraTecColotido from '../../Assets/Logomarca/logomarcaFronteiraTecColorido.png'
-import { AnimatedOnScroll } from 'react-animated-css-onscroll'
-import React, { useRef } from 'react'
-
-export function Contacts() {
-  return (
-    <section>
+<section>
       <div className="container px-6 mx-auto">
-            <div className="w-full px-3 py-10 mx-auto overflow-hidden flex md:flex-row flex-col justify-center">
-              <div className='w-full pr-10 items-center justify-end flex'>
+        <div className="sm:block sm:items-center lg:flex">
+          <div className="lg:w-1/2 w-full mx-auto">
+            <div className="w-full px-3 py-10 mx-auto overflow-hidden flex flex-row align-center justify-center">
+              <div className='w-full pr-10'>
                 <AnimatedOnScroll animationIn="zoomInRight">
                   <img
-                    className="w-96 h-auto"
+                    className="w-auto h-auto"
                     src={logoFronteiraTecColotido}
                     alt=""
                   />
                 </AnimatedOnScroll>
               </div>
-              <div className="mt-6 space-y-8 md:mt-8 md:w-1/2">
+              <div className="mt-6 space-y-8 md:mt-8">
                 <p className="flex items-start -mx-2">
                   <AnimatedOnScroll animationIn="zoomInRight">
                     <img className="w-8 h-8" src="./Location.svg" alt="" />
@@ -28,8 +24,7 @@ export function Contacts() {
                   </AnimatedOnScroll>
                 </p>
 
-                <p className="flex items-start -mx-2" >
-                  <a href="tel:5549988421655" className='flex flex-row'>
+                <p className="flex items-start -mx-2">
                   <AnimatedOnScroll animationIn="zoomInRight">
                     <img
                       className="w-8 h-8"
@@ -43,14 +38,13 @@ export function Contacts() {
                       (49) 99948-4897
                     </span>
                   </AnimatedOnScroll>
-                  </a>
                 </p>
+
                 <p className="flex items-start -mx-2">
-                <a href="mailto:contato.fronteiratec@gmail.com" className='flex flex-row'>
                   <AnimatedOnScroll animationIn="zoomInRight">
                     <img
                       className="w-8 h-8"
-                      src="/SocialMedia/Chat.svg"
+                      src="./SocialMedia/Chat.svg"
                       alt=""
                     />
                   </AnimatedOnScroll>
@@ -60,18 +54,17 @@ export function Contacts() {
                       contato.fronteiratec@gmail.com
                     </span>
                   </AnimatedOnScroll>
-                  </a>
                 </p>
               </div>
 
               <div className="mt-6 w-10/12 md:mt-8 pl-10">
                 <AnimatedOnScroll animationIn="zoomInRight">
-                  <h3 className="text-gray-600 dark:text-gray-300 text-center md:text-start">
+                  <h3 className="text-gray-600 dark:text-gray-300 ">
                     Siga-nos
                   </h3>
                 </AnimatedOnScroll>
 
-                <div className="flex mt-4 justify-center md:justify-start">
+                <div className="flex mt-4">
                   <a className="mx-1.5" href="https://www.instagram.com/fronteira_tec/" target="_blank">
                     <AnimatedOnScroll animationIn="zoomInRight">
                       <img
@@ -109,6 +102,6 @@ export function Contacts() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
     </section>
-  )
-}

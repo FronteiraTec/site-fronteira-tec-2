@@ -24,10 +24,8 @@ export function AboutUs() {
               </AnimatedOnScroll>
             </div>
           </div>
-          
-          <div className="block lg:w-[3px] lg:h-full lg:bg-gradient-to-b from-orange-fronteira to-green-fronteira"></div>
         </div>
-        <div className='sm:w-1/2'>
+        <div className='sm:w-1/2 border-[#006C3C] border-solid border-l-2'>
           <div className="sm:ml-14 mt-5 p-2">
             <AnimatedOnScroll animationIn="bounceInRight">
                 <h1 className="sm:text-6xl text-4xl text-center lg:text-left mb-5 text-green-fronteira">
